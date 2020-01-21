@@ -16,7 +16,7 @@ void join_string(char *dst, char *src)
 
 void lazy() 
 {
-	system(string) ;
+	execve(string, 0, 0) ;
 }
 
 
